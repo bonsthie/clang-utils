@@ -14,4 +14,4 @@ I separated the explanation into 3 parts to make it a bit more enjoyable:
 
 * [The Clang Driver](clang_driver.md)
 * [The Clang Compiler Parsing/AST](clang_cc1.md)
-* [The Clang Compiler Link to LLVM](clang_link_backend.md) (work in progress)
+* [The Clang Compiler Link to LLVM](clang_link_backend.md)
