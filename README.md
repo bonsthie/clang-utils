@@ -1,1 +1,1 @@
-repo where i put my clang's debugs utils like [lldb](lldb) script and [docs](docs) 
+repo where i put my clang's debugs utils like [lldb](lldb) script and [docs](docs/clang_explain.md) 
