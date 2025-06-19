@@ -1,0 +1,12 @@
+settings set stop-line-count-before 10
+settings set stop-line-count-after 20
+
+settings set symbols.enable-lldb-index-cache true
+settings set symbols.lldb-index-cache-path /tmp
+settings set target.preload-symbols true
+
+# clang alias
+command alias toktype expr (const char *)clang::tok::getTokenName(this->Tok.getKind())
+command alias tokname expr (const char *)Tok.getIdentifierInfo()->getName().str() 
+ # expr Tok.is(clang::tok::TokenKind::identifier) ? Tok.getIdentifierInfo()->getName().str().c_str()  : clang::tok::getTokenName(this->Tok.getKind())
+
